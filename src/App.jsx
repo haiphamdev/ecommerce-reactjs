@@ -1,7 +1,12 @@
+import HomePage from '@components/HomePage/HomePage';
+import Info from '@components/Info/Info';
+import '@styles/main.scss';
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <HomePage />
+      <Info />
     </>
   );
 }
